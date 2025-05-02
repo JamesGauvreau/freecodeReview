@@ -92,28 +92,29 @@ const total22 = 1;
 const totalDone = done1 + done2 + done3 + done4 + done5 + done6 + done7 + done8 + done9 + done10 + done11 + done12 + done13 + done14 + done15 + done16 + done17 + done18 + done19 + done20 + done21 + done22;
 const totalTotal = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11 + total12 + total13 + total14 + total15 + total16 + total17 + total18 + total19 + total20 + total21 + total22;
 const difference = totalTotal - totalDone;
-const differenceSentence = "There are " + difference + " units remaining."
+const differenceSentence = "There are " + difference + " units remaining.\n"
 
-console.log(differenceSentence
-  + nl + name1 + done1 + dash + total1
-  + nl + name2 + done2 + dash + total2
-  + nl + name3 + done3 + dash + total3
-  + nl + name4 + done4 + dash + total4
-  + nl + name5 + done5 + dash + total5
-  + nl + name6 + done6 + dash + total6
-  + nl + name7 + done7 + dash + total7
-  + nl + name8 + done8 + dash + total8
-  + nl + name9 + done9 + dash + total9
-  + nl + name10 + done10 + dash + total10
-  + nl + name11 + done11 + dash + total11
-  + nl + name12 + done12 + dash + total12
-  + nl + name13 + done13 + dash + total13
-  + nl + name14 + done14 + dash + total14
-  + nl + name15 + done15 + dash + total15
-  + nl + name16 + done16 + dash + total16
-  + nl + name17 + done17 + dash + total17
-  + nl + name18 + done18 + dash + total18
-  + nl + name19 + done19 + dash + total19
-  + nl + name20 + done20 + dash + total20
-  + nl + name21 + done21 + dash + total21
-  + nl + name22 + done22 + dash + total22)
+let statement = differenceSentence.concat(nl, name1, done1, dash, total1,
+  nl, name2, done2, dash, total2,
+  nl, name3, done3, dash, total3,
+  nl, name4, done4, dash, total4,
+  nl, name5, done5, dash, total5,
+  nl, name6, done6, dash, total6,
+  nl, name7, done7, dash, total7,
+  nl, name8, done8, dash, total8,
+  nl, name9, done9, dash, total9,
+  nl, name10, done10, dash, total10,
+  nl, name11, done11, dash, total11,
+  nl, name12, done12, dash, total12,
+  nl, name13, done13, dash, total13,
+  nl, name14, done14, dash, total14,
+  nl, name15, done15, dash, total15,
+  nl, name16, done16, dash, total16,
+  nl, name17, done17, dash, total17,
+  nl, name18, done18, dash, total18,
+  nl, name19, done19, dash, total19,
+  nl, name20, done20, dash, total20,
+  nl, name21, done21, dash, total21,
+  nl, name22, done22, dash, total22);
+
+console.log(statement);
