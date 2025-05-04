@@ -5,7 +5,7 @@ const done1 = 1;
 const name1 = "Code Editors ";
 const total1 = 1;
 
-const done2 = 5;
+const done2 = 6;
 const name2 = "Variables and Strings ";
 const total2 = 12;
 
@@ -92,7 +92,9 @@ const total22 = 1;
 const totalDone = done1 + done2 + done3 + done4 + done5 + done6 + done7 + done8 + done9 + done10 + done11 + done12 + done13 + done14 + done15 + done16 + done17 + done18 + done19 + done20 + done21 + done22;
 const totalTotal = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11 + total12 + total13 + total14 + total15 + total16 + total17 + total18 + total19 + total20 + total21 + total22;
 const difference = totalTotal - totalDone;
-const differenceSentence = "There are " + difference + " units remaining."
+const lessonsDaily1 = Math.floor([difference / 30]);
+const lessonsDaily2 = Math.floor([difference / 30 / 2]);
+const differenceSentence = "There are " + difference + " units remaining. \nThat is " + lessonsDaily1 + " months if 1 lesson is done every day, or " + lessonsDaily2 + " months if 2 lessons are done daily.";
 
 let statement = name1.concat(done1, dash, total1,
   nl, name2, done2, dash, total2,
