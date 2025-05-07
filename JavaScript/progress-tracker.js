@@ -5,7 +5,7 @@ const done1 = 1;
 const name1 = "Code Editors ";
 const total1 = 1;
 
-const done2 = 6;
+const done2 = 7;
 const name2 = "Variables and Strings ";
 const total2 = 12;
 
@@ -13,7 +13,7 @@ const done3 = 0;
 const name3 = "Booleans and Numbers ";
 const total3 = 9;
 
-const done4 = 0;
+const done4 = 1;
 const name4 = "Functions ";
 const total4 = 7;
 
