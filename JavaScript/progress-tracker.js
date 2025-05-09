@@ -1,16 +1,17 @@
 const dash = "/";
 const nl = "\n";
+const tab = `\t`;
 
 const done1 = 1;
 const name1 = "Code Editors ";
 const total1 = 1;
 
 const done2 = 12;
-const name2 = "Variables and Strings ";
+const name2 = "Variables & Strings ";
 const total2 = 12;
 
-const done3 = 0;
-const name3 = "Booleans and Numbers ";
+const done3 = 1;
+const name3 = "Booleans & Numbers ";
 const total3 = 9;
 
 const done4 = 1;
@@ -30,15 +31,15 @@ const name7 = "Loops ";
 const total7 = 5;
 
 const done8 = 0;
-const name8 = "JavaScript Fundamentals Review ";
+const name8 = "JavaScript Funds. Review ";
 const total8 = 9;
 
 const done9 = 0;
-const name9 = "Higher Order Functions and Callbacks ";
+const name9 = "Higher Order Functions & Callbacks ";
 const total9 = 5;
 
 const done10 = 0;
-const name10 = "DOM Manipulation and Events ";
+const name10 = "DOM Manip. & Evts. ";
 const total10 = 11;
 
 const done11 = 0;
@@ -58,15 +59,15 @@ const name14 = "Dates ";
 const total14 = 4;
 
 const done15 = 0;
-const name15 = "Audio and Video Events ";
+const name15 = "Audio & Video Events ";
 const total15 = 5;
 
 const done16 = 0;
-const name16 = "Maps and Sets ";
+const name16 = "Maps & Sets ";
 const total16 = 5;
 
 const done17 = 0;
-const name17 = "localStorage and CRUD Operations ";
+const name17 = "localStorage & CRUD Ops. ";
 const total17 = 5;
 
 const done18 = 0;
@@ -97,26 +98,26 @@ const lessonsDaily2 = Math.floor([difference / 30 / 2]);
 const differenceSentence = "There are " + difference + " units remaining. \nThat is " + lessonsDaily1 + " months if 1 lesson is done every day, or " + lessonsDaily2 + " months if 2 lessons are done daily.";
 
 let statement = name1.concat(done1, dash, total1,
-  nl, name2, done2, dash, total2,
-  nl, name3, done3, dash, total3,
+  tab, name2, done2, dash, total2,
+  tab, name3, done3, dash, total3,
   nl, name4, done4, dash, total4,
-  nl, name5, done5, dash, total5,
-  nl, name6, done6, dash, total6,
+  tab, tab, name5, done5, dash, total5,
+  tab, tab, tab, name6, done6, dash, total6,
   nl, name7, done7, dash, total7,
-  nl, name8, done8, dash, total8,
-  nl, name9, done9, dash, total9,
+  tab, tab, name8, done8, dash, total8,
+  tab, name9, done9, dash, total9,
   nl, name10, done10, dash, total10,
-  nl, name11, done11, dash, total11,
-  nl, name12, done12, dash, total12,
+  tab, name11, done11, dash, total11,
+  tab, tab, tab, name12, done12, dash, total12,
   nl, name13, done13, dash, total13,
-  nl, name14, done14, dash, total14,
-  nl, name15, done15, dash, total15,
+  tab, name14, done14, dash, total14,
+  tab, tab, tab, name15, done15, dash, total15,
   nl, name16, done16, dash, total16,
-  nl, name17, done17, dash, total17,
-  nl, name18, done18, dash, total18,
+  tab, tab, name17, done17, dash, total17,
+  tab, name18, done18, dash, total18,
   nl, name19, done19, dash, total19,
-  nl, name20, done20, dash, total20,
-  nl, name21, done21, dash, total21,
+  tab, tab, name20, done20, dash, total20,
+  tab, name21, done21, dash, total21,
   nl, name22, done22, dash, total22,
   nl, nl, differenceSentence, nl);
 
