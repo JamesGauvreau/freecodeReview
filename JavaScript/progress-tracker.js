@@ -10,7 +10,7 @@ const done2 = 12;
 const name2 = "Variables & Strings ";
 const total2 = 12;
 
-const done3 = 1;
+const done3 = 6;
 const name3 = "Booleans & Numbers ";
 const total3 = 9;
 
