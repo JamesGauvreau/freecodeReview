@@ -1,13 +1,12 @@
 function maskEmail(email) {
     const endValue = email.indexOf(`@`) - 1;
-    const replaceChar = "*";
-    const slice1 = email.slice(0,1);
+    const replacementChar = "*";
+    const addressBeg = email.slice(0,1);
     const sliceMid = email.slice(1,endValue);
     const startValue = sliceMid.length;
-    const replacement = replaceChar.repeat(startValue);
-    const slice2 = email.slice(endValue);
-    // return replacement + " " + endValue;
-    return slice1 + replacement + slice2;
+    const replacementString = replacementChar.repeat(startValue);
+    const addressEnd = email.slice(endValue);
+    return addressBeg + replacementString + addressEnd;
 };
 
 // const email = "apple.pie@example.com";
@@ -16,11 +15,3 @@ const email = "freecodecamp@example.com";
 
 console.log(maskEmail(email));
 // // console.log(maskEmail(testEmailDuo));
-
-// apple.pie@example.com
-// a*******e@example.com
-// a******e@example.com
-
-// freecodecamp@example.com
-// f**********p@example.com
-// f*********p@example.com
