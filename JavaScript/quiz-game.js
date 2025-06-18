@@ -31,11 +31,12 @@ const questions = [
     },
 ];
 
-function randomNumber(number) {
+function ranGen(number) {
     return Math.floor(Math.random() * number);
 };
 
 function getRandomQuestion(questions_array) {
+    return questions_array[ranGen(5)];
     // takes an array of questions as a parameter and returns a random question object from 
     // the array;
 };
@@ -48,4 +49,4 @@ function getResults(questions_array, computer_choice) {
     // The function should return The computer's choice is correct! if the answer is correct. Otherwise, it returns The computer's choice is wrong. The correct answer is: <correct-answer>, where <correct-answer> is the value of the correct answer to the chosen question.
 }
 
-console.log(randomNumber(5));
+console.log(getRandomQuestion(questions));
